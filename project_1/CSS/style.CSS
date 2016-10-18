@@ -1,6 +1,21 @@
-h5{
-            color:00CC00;
+h1{
+            color:red;
             }
-            h6{
-            color:palevioletred
-            }
+#Sample{
+    color:green;
+}
+.Sample2{
+    color:blue
+}
+ul{
+    display: flex;
+    list-style: :none;
+    flex-direction: row;
+}
+@media Screen and(max-width:600 px){
+ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    }
+}
